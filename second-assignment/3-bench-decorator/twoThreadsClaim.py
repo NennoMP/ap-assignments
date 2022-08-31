@@ -129,11 +129,21 @@ if __name__ == '__main__':
 --- CONCLUSIONS:
     
     > CPU Intensive function <grezzo>
-        From the results it is possible to notice that the increasing number of threads (i.e. parallelism degree) does not correspond to an increase in performance. In fact, the difference in the average (mean) execution time between the different configurations is minimal.
-        The reason is that the CPython interpreter ensures that only one thread executes Python bytecode at a time, since a thread must be holding the GIL (Global Interpreter Lock) in order to use the CPU.
-        Hence, the GIL, in the case of CPU-based tasks and multi-threadings, introduces a degradation on performances rather than improvements.
+        From the results it is possible to notice that the increasing number 
+        of threads (i.e. parallelism degree) does not correspond to an 
+        increase in performance. In fact, the difference in the average (mean) 
+        execution time between the different configurations is minimal.
+        The reason is that the CPython interpreter ensures that only one 
+        thread executes Python bytecode at a time, since a thread must be 
+        holding the GIL (Global Interpreter Lock) in order to use the CPU.
+        Hence, the GIL, in the case of CPU-based tasks and multi-threadings, 
+        introduces a degradation on performances rather than improvements.
 
     > NOOP function <just_wait>:
-        From the results of the second experiment, where a not CPU-based task is considered, the scenario is quite the opposite. The average (mean) execution time halves between the different configuration when the number of threads is doubled.
-        The reason lies in the fact that the <just_wait> function does not require the use of the CPU (since it just waits).
+        From the results of the second experiment, where a not CPU-based task 
+        is considered, the scenario is quite the opposite. The average (mean) 
+        execution time halves between the different configuration when the 
+        number of threads is doubled.
+        The reason lies in the fact that the <just_wait> function does not 
+        require the use of the CPU (since it just waits).
 """
