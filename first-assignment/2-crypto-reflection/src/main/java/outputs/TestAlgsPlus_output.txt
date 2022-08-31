@@ -1,0 +1,13 @@
+##### TestAlgsPlus #####
+
+[Caesar] - [OK]
+[CaesarW] - [KO]: java is the best language -> wn?n-v?-?ur-or??-yn{t?ntr -> wn?n-v?-?ur-or??-yn{t?ntr
+[CaesarN] - [OK]
+[CaesarWN] - [KO]: paperino -> ???{?w? -> onirepap
+[CaesarWN] - [KO]: ap -> ?w -> pa
+[CaesarWN] - [KO]: advanced programming -> }???w?}???6z{y?w?zw -> gnimmargorp decnavda
+[CaesarWN] - [KO]: abcdefghijklmnopqrstuvwxyz -> ?????????????????~}|{zyxw -> zyxwvutsrqponmlkjihgfedcba
+[Permutation] - [OK]
+[PermutationW] - [KO]: ap -> ##p#a -> why are you reading this?
+[PermutationN] - [OK]
+[PermutationWN] - Enc/Dec methods not found

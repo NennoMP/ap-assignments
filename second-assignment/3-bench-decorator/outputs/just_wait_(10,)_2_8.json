@@ -1,0 +1,11 @@
+{
+    "fun": "just_wait",
+    "args": [
+        10
+    ],
+    "n_threads": 2,
+    "seq_iter": 8,
+    "iter": 20,
+    "mean": 8.05719999999999,
+    "variance": 0.0002059765410334677
+}

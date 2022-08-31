@@ -1,0 +1,13 @@
+##### TestAlgs #####
+
+[Caesar] - [OK]
+[CaesarW] - Enc/Dec methods not found
+[CaesarN] - [OK]
+[CaesarWN] - [KO]: paperino -> ???{?w? -> onirepap
+[CaesarWN] - [KO]: ap -> ?w -> pa
+[CaesarWN] - [KO]: advanced programming -> }???w?}???6z{y?w?zw -> gnimmargorp decnavda
+[CaesarWN] - [KO]: abcdefghijklmnopqrstuvwxyz -> ?????????????????~}|{zyxw -> zyxwvutsrqponmlkjihgfedcba
+[Permutation] - [OK]
+[PermutationW] - Enc/Dec methods not found
+[PermutationN] - [OK]
+[PermutationWN] - Enc/Dec methods not found
