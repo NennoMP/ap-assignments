@@ -1,0 +1,7 @@
+com\mycompany\framework\JobSchedulerContext.class
+com\mycompany\anagram\AnagramJob.class
+com\mycompany\anagram\AnagramMain.class
+com\mycompany\anagram\AnagramStrategy.class
+com\mycompany\framework\Pair.class
+com\mycompany\framework\AJob.class
+com\mycompany\framework\JobSchedulerStrategy.class
