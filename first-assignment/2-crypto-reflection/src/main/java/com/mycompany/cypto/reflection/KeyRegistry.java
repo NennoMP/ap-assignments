@@ -4,8 +4,7 @@
 * @description: Registry for maintaining a set of classes (crypto algorithms) 
 *               and their corresponding key.
 *
-* @author: Matteo Pinna
-* @date: 20-08-2022
+* @author: m.pinna10@studenti.unipi.it
 */
 
 package com.mycompany.cypto.reflection;

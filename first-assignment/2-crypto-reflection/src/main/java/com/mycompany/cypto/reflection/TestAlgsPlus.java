@@ -10,8 +10,7 @@
                   - a method starting with 'dec' OR extacly one annotated with 
                     @Decrypt, with a single String parameter 
 *
-* @author: Matteo Pinna
-* @date: 20-08-2022
+* @author: m.pinna10@studenti.unipi.it
 */
 
 package com.mycompany.cypto.reflection;

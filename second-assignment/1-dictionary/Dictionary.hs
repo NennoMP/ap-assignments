@@ -1,4 +1,4 @@
--- Module: Dictionary.hs in
+-- Module: Dictionary.hs
 -- Description: AP Assignment 2 Part 1
 --
 -- Maintainer: m.pinna10@studenti.unipi.it
