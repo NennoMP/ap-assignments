@@ -1,3 +1,12 @@
+"""
+twoThreadsClaim.py
+
+@description: Implementation and testing of a parametric decorator for multi-threaded benchmarking
+"""
+
+__author__  = "Matteo Pinna"
+__email__   = "m.pinna10@studenti.unipi.it"
+
 import functools
 import json
 import statistics
@@ -112,7 +121,7 @@ if __name__ == '__main__':
     # Variance should be 0 (only 1 data point)
     #test (1, grezzo, 5)
 
-    #test(20, grezzo, 23)
+    test(20, grezzo, 23)
     test(20, just_wait, 10)
 
 
