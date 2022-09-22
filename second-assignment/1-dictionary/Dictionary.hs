@@ -32,7 +32,7 @@ insert (Dict d) k v = Dict (insertAux d)
   where
     insertAux [] = [(k, [v])]
     insertAux ((k1, v1) : xs)
-      | k == k1 = (k1, v1 ++ [v]) : xs
+      | k == k1 = (k1, v : v1) : xs
       | otherwise = (k1, v1) : insertAux xs
 
 -- | The 'lookup' function searches for a given key into a Dictionary.

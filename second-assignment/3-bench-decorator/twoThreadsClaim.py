@@ -119,9 +119,9 @@ def grezzo(n: int):
 
 if __name__ == '__main__':
     # Variance should be 0 (only 1 data point)
-    #test (1, grezzo, 5)
+    test (1, grezzo, 5)
 
-    test(20, grezzo, 23)
+    #test(20, grezzo, 23)
     test(20, just_wait, 10)
 
 
